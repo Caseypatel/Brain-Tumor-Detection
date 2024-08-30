@@ -13,12 +13,11 @@
 ## Concolutional Neural Networks (CNNs) Model:
 - The model is compiled with the categorical crossentropy loss function and the Adam optimizer, which are standard choices for classification tasks. 
 - The architecture and layers used in this model help to automatically learn and extract relevant features from brain tumor images, making it suitable for detecting the presence of tumors with reduced human error.
-
-- **Model Initialization:** I began by initializing sequential model.
-- **Input Layer:** Then, the input layer is added with the specified input shape, which is (224, 224, 3). This shape represents 224x224 pixels with 3 color channels (RGB).
-- **First Convolutional Layer:** Next, Added a 2D convolutional layer with 32 filters of size 3x3 and ReLU activation function. Convolutional layers are used to detect local patterns.
-- **First Max Pooling Layer:** Added a max pooling layer with a pool size of 2x2 which reduces the spatial dimensions (height and width) of the input volume.
-- **Second Convolutional Layer:** Added another 2D convolutional layer with 32 filters of size 3x3, ReLU activation function, and He uniform kernel initializer. This layer also helps in detecting local patterns with a different initialization technique for weights. 
+  - **Model Initialization:** I began by initializing sequential model.
+  - **Input Layer:** Then, the input layer is added with the specified input shape, which is (224, 224, 3). This shape represents 224x224 pixels with 3 color channels (RGB).
+  - **First Convolutional Layer:** Next, Added a 2D convolutional layer with 32 filters of size 3x3 and ReLU activation function. Convolutional layers are used to detect local patterns.
+  - **First Max Pooling Layer:** Added a max pooling layer with a pool size of 2x2 which reduces the spatial dimensions (height and width) of the input volume.
+  - **Second Convolutional Layer:** Added another 2D convolutional layer with 32 filters of size 3x3, ReLU activation function, and He uniform kernel initializer. This layer also helps in detecting local patterns with a different initialization technique for weights. 
 
 Second Max Pooling Layer: Added a max pooling layer with a pool size of 2x2, similar to the first max pooling layer, to further reduce the spatial dimensions. 
 
