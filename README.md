@@ -29,7 +29,7 @@
 
 ## Heatmap of the Confusion Matrix: 
 visualized the performance of a machine learning model(CNNs) using a confusion matrix plotted as a heatmap. 
-![Capture](https://github.com/user-attachments/assets/aa633b1a-d034-4086-8c47-6435350c832e)
-As we can see in the above figure 98% of the time model predicts correct image. 123
+<p align="center"><img src="https://github.com/user-attachments/assets/aa633b1a-d034-4086-8c47-6435350c832e" width="300px" height="auto"></p>
+As we can see in the above figure 98% of the time model predicts correct image. 
 
 
