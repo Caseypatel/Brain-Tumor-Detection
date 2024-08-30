@@ -5,8 +5,8 @@
 - Developed **Convolutional Neural Networks (CNNs)** to analyze MRI images of the brain to detect the presence of tumors and minimize human error in diagnosis. 
 - The project includes visualization of the model's performance using accuracy and loss plots, classification reports, and confusion matrices. Future steps include model evaluation, data augmentation, fine-tuning, error analysis, cross-validation, user interface development, integration with clinical workflow, model interpretability, and regular updates and maintenance.
 - Final model performs with publication level results:
-      - AUC = 0.9895
-      - F1 = 0.9717
-      - Recall = 0.97055
-      - Precision = 0.9729
+  - AUC = 0.9895
+  - F1 = 0.9717
+  - Recall = 0.97055
+  - Precision = 0.9729
 
