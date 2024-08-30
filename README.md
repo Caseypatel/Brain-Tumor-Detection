@@ -27,5 +27,9 @@
   - **Output Layer:** Added the output layer with 2 neurons (one for each class in binary classification) and softmax activation function. The softmax function outputs a probability distribution over the two classes.
   - Lastly, Compiled the model by specifying the loss function (categorical_crossentropy), optimizer (adam), and evaluation metric (accuracy).  
 
+## Heatmap of the Confusion Matrix: 
+visualized the performance of a machine learning model(CNNs) using a confusion matrix plotted as a heatmap. 
+![Capture](https://github.com/user-attachments/assets/aa633b1a-d034-4086-8c47-6435350c832e)
+As we can see in the above figure 98% of the time model predicts correct image.
 
 
